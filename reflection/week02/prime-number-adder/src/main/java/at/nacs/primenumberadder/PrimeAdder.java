@@ -1,16 +1,16 @@
-package at.nacs.primenumber;
+package at.nacs.primenumberadder;
 
 import lombok.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Value
 @Component
+@Value
 public class PrimeAdder {
 
     private PrimeCollector primeCollector;
-    private long sum = 0;
 
     public long calculateSum(List<Integer> primeNumbers) {
         List<Integer> allNumbers = primeCollector.collectPrimeNumbers(100);

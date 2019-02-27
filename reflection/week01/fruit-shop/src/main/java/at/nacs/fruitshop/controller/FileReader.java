@@ -1,16 +1,16 @@
-package reflection.fruitshop.controller;
+package at.nacs.fruitshop.controller;
 
 import lombok.experimental.UtilityClass;
-        import lombok.extern.java.Log;
+import lombok.extern.java.Log;
 
-        import java.io.IOException;
-        import java.net.URI;
-        import java.net.URISyntaxException;
-        import java.nio.file.Files;
-        import java.nio.file.Path;
-        import java.nio.file.Paths;
-        import java.util.logging.Logger;
-        import java.util.stream.Stream;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.logging.Logger;
+import java.util.stream.Stream;
 
 @Log
 @UtilityClass

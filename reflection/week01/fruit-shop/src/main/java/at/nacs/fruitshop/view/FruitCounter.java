@@ -1,4 +1,4 @@
-package reflection.fruitshop.view;
+package at.nacs.fruitshop.view;
 
 import lombok.experimental.UtilityClass;
 import lombok.extern.java.Log;
@@ -20,7 +20,7 @@ public class FruitCounter {
     public void display() {
         log.info("These are all our tasteful fruits:");
         fruits.stream()
-                .forEach(e-> System.out.println(e.getAmount() + " "+ e.getName()));
+                .forEach(e -> System.out.println(e.getAmount() + " " + e.getName()));
 
     }
 

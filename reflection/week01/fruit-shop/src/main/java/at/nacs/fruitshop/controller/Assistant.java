@@ -1,7 +1,7 @@
-package reflection.fruitshop.controller;
+package at.nacs.fruitshop.controller;
 
+import at.nacs.fruitshop.model.Fruit;
 import lombok.experimental.UtilityClass;
-import reflection.fruitshop.model.Fruit;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package reflection.fruitshop.model;
+package at.nacs.fruitshop.model;
 
 
 import lombok.Builder;

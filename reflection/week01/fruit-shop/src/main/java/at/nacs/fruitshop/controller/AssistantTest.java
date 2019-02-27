@@ -1,9 +1,9 @@
-package reflection.fruitshop.controller;
+package at.nacs.fruitshop.controller;
 
+import at.nacs.fruitshop.model.Fruit;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import reflection.fruitshop.model.Fruit;
 
 import java.util.Arrays;
 import java.util.List;

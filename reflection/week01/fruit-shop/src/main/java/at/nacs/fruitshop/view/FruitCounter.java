@@ -1,10 +1,10 @@
 package at.nacs.fruitshop.view;
 
+import at.nacs.fruitshop.controller.Assistant;
+import at.nacs.fruitshop.controller.FileReader;
+import at.nacs.fruitshop.model.Fruit;
 import lombok.experimental.UtilityClass;
 import lombok.extern.java.Log;
-import reflection.fruitshop.controller.Assistant;
-import reflection.fruitshop.controller.FileReader;
-import reflection.fruitshop.model.Fruit;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ public class FruitCounter {
 
     //    FruitCounter - displays the list of fruits
 
-    private List<String> fruitNames = (List<String>) FileReader.lines("reflection/fruitshop/file/delivery.txt");
+    private List<String> fruitNames = (List<String>) FileReader.lines("at/nacs/fruitshop/file/delivery.txt");
     private List<Fruit> fruits = Assistant.toFruit(fruitNames);
 
     public void display() {

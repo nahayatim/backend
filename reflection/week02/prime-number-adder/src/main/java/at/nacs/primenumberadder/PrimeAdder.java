@@ -1,7 +1,6 @@
 package at.nacs.primenumberadder;
 
 import lombok.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -10,14 +9,11 @@ import java.util.List;
 @Value
 public class PrimeAdder {
 
-    private PrimeCollector primeCollector;
+    PrimeCollector primeCollector;
 
     public long calculateSum(List<Integer> primeNumbers) {
-        List<Integer> allNumbers = primeCollector.collectPrimeNumbers(100);
-        Integer sum = allNumbers.stream()
+        return primeNumbers.stream()
                 .mapToInt(Integer::intValue)
                 .sum();
-        return sum;
-
     }
 }

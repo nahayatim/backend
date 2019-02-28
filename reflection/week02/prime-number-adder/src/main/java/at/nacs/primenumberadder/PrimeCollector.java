@@ -1,5 +1,6 @@
 package at.nacs.primenumberadder;
 
+import lombok.RequiredArgsConstructor;
 import lombok.Value;
 import org.springframework.stereotype.Component;
 
@@ -11,16 +12,14 @@ import java.util.stream.IntStream;
 @Value
 public class PrimeCollector {
 
-    private Primes primes;
+    Primes primes;
 
-    public List<Integer> collectPrimeNumbers(int n) {
-
+    public List<Integer> collectPrimeNumbers(int limit) {
         return IntStream.iterate(2, e -> e + 1)
-                .filter(e -> primes.isPrime(e))
+                .filter(primes::isPrime)
                 .boxed()
-                .limit(n)
+                .limit(limit)
                 .collect(Collectors.toList());
-
     }
 }
 

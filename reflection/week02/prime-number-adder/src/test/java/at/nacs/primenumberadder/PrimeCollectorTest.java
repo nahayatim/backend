@@ -9,21 +9,21 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@SpringBootTest(classes = PrimeCollector.class)
+@SpringBootTest
 class PrimeCollectorTest {
 
     @Autowired
-    private PrimeCollector primeCollector;
+    PrimeCollector primeCollector;
 
     @Autowired
-    private PrimeAdder primeAdder;
+    PrimeAdder primeAdder;
 
     @ParameterizedTest
     @CsvSource({
             "24133, 100",
             "0, 0",
-            "3, 10",
-            "5, 28"
+            "10, 3",
+            "28, 5"
     })
     void collectPrimeNumbers(long expected, int numberOfPrimes) {
 

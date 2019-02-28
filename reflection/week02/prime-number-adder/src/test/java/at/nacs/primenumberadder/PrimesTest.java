@@ -6,11 +6,11 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = Primes.class)
+@SpringBootTest
 class PrimesTest {
 
     @Autowired
-    private Primes primes;
+    Primes primes;
 
     @ParameterizedTest
     @CsvSource({
@@ -19,6 +19,7 @@ class PrimesTest {
             "false, 22",
             "true, 13",
             "false, 100",
+            "true, 997",
     })
     void testPrimeNumbers(boolean expected, int number) {
         boolean actual = primes.isPrime(number);

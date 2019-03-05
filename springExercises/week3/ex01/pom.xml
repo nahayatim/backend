@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>at.nacs</groupId>
-    <artifactId>ex5-thecalculator</artifactId>
+    <artifactId>ex01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ex5-thecalculator</name>
+    <name>ex01</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -37,13 +37,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.3.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-params</artifactId>
-            <version>5.3.1</version>
+            <version>5.3.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

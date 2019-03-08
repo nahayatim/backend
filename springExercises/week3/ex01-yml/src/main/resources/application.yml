@@ -1,0 +1,25 @@
+special:
+  word: fantastic
+value:
+  number: 369
+day:
+  week: saturday,sunday,monday,tuesday,wednesday,thursday,friday
+bookshop:
+  books:
+   harrypotter: 3
+   thefoundation: 2
+   thelordOftherings: 4
+entertainment:
+ sauna:
+   availableseats: 7
+   temperature: 50
+specific:
+  ballerinas[0]:
+    name: tamara
+    performancequality: 3
+  ballerinas[1]:
+    name: mahtab
+    performancequality: 4
+  ballerinas[2]:
+   name: diba
+   performancequality: 5

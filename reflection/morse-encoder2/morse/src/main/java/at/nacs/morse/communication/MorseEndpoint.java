@@ -1,5 +1,6 @@
-package at.nacs.morse;
+package at.nacs.morse.communication;
 
+import at.nacs.morse.business.Encoder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,17 +10,12 @@ import org.springframework.web.bind.annotation.*;
 public class MorseEndpoint {
 
 
-  private final Encoder encoder;
+    private final Encoder encoder;
 
-@GetMapping("/{letter}")
-String get(@PathVariable String letter){
-    return encoder.encode(letter);
-}
+    @GetMapping("/{letter}")
+    String get(@PathVariable String letter) {
 
- @PostMapping
-    String post(@RequestBody String letter){
-       String aa =encoder.encode(letter);
-       return aa;
+        return encoder.encode(letter);
+    }
 
-  }
 }

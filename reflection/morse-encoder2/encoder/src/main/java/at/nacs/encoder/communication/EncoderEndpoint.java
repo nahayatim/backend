@@ -1,5 +1,6 @@
-package at.nacs.encoder;
+package at.nacs.encoder.communication;
 
+import at.nacs.encoder.business.CoderClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

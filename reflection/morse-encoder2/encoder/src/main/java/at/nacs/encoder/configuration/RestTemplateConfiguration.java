@@ -1,4 +1,4 @@
-package at.nacs.encoder;
+package at.nacs.encoder.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,6 +9,7 @@ public class RestTemplateConfiguration {
 
     @Bean
     RestTemplate restTemplate(){
+
         return new RestTemplate();
     }
 }

@@ -1,4 +1,4 @@
-package at.nacs.morse;
+package at.nacs.morse.business;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

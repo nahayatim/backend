@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/the-marathon/marathon-client/marathon-client.iml" filepath="$PROJECT_DIR$/the-marathon/marathon-client/marathon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/the-marathon/marathon-server/marathon-server.iml" filepath="$PROJECT_DIR$/the-marathon/marathon-server/marathon-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marco-polo/marco/marco.iml" filepath="$PROJECT_DIR$/marco-polo/marco/marco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marco-polo/polo/polo.iml" filepath="$PROJECT_DIR$/marco-polo/polo/polo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/week4.iml" filepath="$PROJECT_DIR$/.idea/week4.iml" />
+    </modules>
+  </component>
+</project>

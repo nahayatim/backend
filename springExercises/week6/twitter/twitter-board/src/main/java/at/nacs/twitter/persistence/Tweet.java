@@ -1,4 +1,4 @@
-package at.nacs.twitter;
+package at.nacs.twitter.persistence;
 
 import lombok.Data;
 

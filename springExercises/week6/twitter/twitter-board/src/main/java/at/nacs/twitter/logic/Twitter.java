@@ -1,4 +1,4 @@
-package at.nacs.twitter;
+package at.nacs.twitter.logic;
 
 import at.nacs.twitter.persistence.Tweet;
 import at.nacs.twitter.persistence.TweetRepository;

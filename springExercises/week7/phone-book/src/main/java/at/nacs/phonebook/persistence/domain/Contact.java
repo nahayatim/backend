@@ -1,4 +1,4 @@
-package at.nacs.phonebook;
+package at.nacs.phonebook.persistence;
 
 import lombok.Data;
 import org.apache.tomcat.jni.Address;

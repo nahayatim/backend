@@ -1,7 +1,7 @@
 package at.nacs.phonebook.communication;
 
 import at.nacs.phonebook.logic.ContactManager;
-import at.nacs.phonebook.persistence.Contact;
+import at.nacs.phonebook.persistence.domain.Contact;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

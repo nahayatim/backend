@@ -1,4 +1,4 @@
-package at.nacs.phonebook.persistence;
+package at.nacs.phonebook.persistence.domain;
 
 import lombok.Data;
 

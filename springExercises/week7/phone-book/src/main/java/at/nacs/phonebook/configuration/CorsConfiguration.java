@@ -1,4 +1,4 @@
-package at.nacs.trickster.configuration;
+package at.nacs.phonebook.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

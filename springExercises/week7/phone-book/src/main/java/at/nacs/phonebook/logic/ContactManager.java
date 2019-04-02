@@ -1,7 +1,7 @@
 package at.nacs.phonebook.logic;
 
-import at.nacs.phonebook.persistence.Address;
-import at.nacs.phonebook.persistence.Contact;
+import at.nacs.phonebook.persistence.domain.Address;
+import at.nacs.phonebook.persistence.domain.Contact;
 import at.nacs.phonebook.persistence.repository.ContactRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

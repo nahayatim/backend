@@ -1,4 +1,4 @@
-package at.nacs.marathonclient.configuration;
+package at.nacs.phonebook.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

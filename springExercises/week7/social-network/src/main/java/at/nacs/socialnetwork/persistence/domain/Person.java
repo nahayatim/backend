@@ -1,4 +1,4 @@
-package at.nacs.socialnetwork.persistence;
+package at.nacs.socialnetwork.persistence.domain;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

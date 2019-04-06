@@ -3,7 +3,7 @@
 
   spring:
     datasource:
-      url: jdbc:mysql://localhost/phone-book
+      url: jdbc:mysql://localhost/phone-book?useSSL=false
       username: nacs
       password: nacs
     jpa:

@@ -1,6 +1,5 @@
 package at.nacs.phonebook.logic;
 
-import at.nacs.phonebook.persistence.domain.Address;
 import at.nacs.phonebook.persistence.domain.Contact;
 import at.nacs.phonebook.persistence.repository.ContactRepository;
 import lombok.RequiredArgsConstructor;
@@ -15,17 +14,17 @@ public class ContactManager {
     private final ContactRepository contactRepository;
 
 
-    public List<Contact>findAll(){
+    public List<Contact> findAll() {
         return contactRepository.findAll();
     }
 
-    public Contact save(Contact contact){
+    public Contact save(Contact contact) {
         return contactRepository.save(contact);
     }
 
-    public List<Contact> findLike(Address address){
-        return contactRepository.findContactsByAddressIsLike(address);
-
+    public List<Contact> findLike(String address) {
+        String addressName="%"+address+"%";
+        return contactRepository.findContactsByAddressIsLike(addressName);
 
 
     }

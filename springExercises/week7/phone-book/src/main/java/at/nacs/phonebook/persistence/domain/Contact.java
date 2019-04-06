@@ -1,15 +1,11 @@
 package at.nacs.phonebook.persistence.domain;
 
 import lombok.Data;
-import org.apache.tomcat.jni.Address;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
-@Entity
 @Data
+@Entity
 public class Contact {
 
     @Id
@@ -19,5 +15,6 @@ public class Contact {
     @Column(unique = true)
     private String name;
 
+    @OneToOne(cascade = CascadeType.ALL)
     private Address address;
 }

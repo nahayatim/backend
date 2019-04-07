@@ -1,0 +1,15 @@
+server:
+  port: 9003
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/beds
+
+infobank:
+  treatment:
+    cold: mexalen
+    diabet: metformin
+
+patient:
+  url: http://localhost:9005/patients

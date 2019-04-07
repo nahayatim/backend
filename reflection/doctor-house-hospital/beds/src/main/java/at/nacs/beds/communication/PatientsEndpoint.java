@@ -1,6 +1,6 @@
 package at.nacs.beds.communication;
 
-import at.nacs.beds.logic.PatientManager;
+import at.nacs.beds.logic.Nurse;
 import at.nacs.beds.persistence.domain.Patient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class PatientsEndpoint {
 
-    private final PatientManager patientManager;
+    private final Nurse nurse;
 
     @PostMapping
     Patient post(@RequestBody Patient patient) {
-        patientManager.register(patient);
+        nurse.register(patient);
         return patient;
     }
 }

@@ -1,28 +1,37 @@
 package at.nacs.beds.logic;
 
+import at.nacs.beds.communication.AccountancyClient;
 import at.nacs.beds.persistence.domain.Patient;
-import lombok.Getter;
-import lombok.Setter;
+import at.nacs.beds.persistence.repository.PatientRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
 @Service
 @ConfigurationProperties("patient")
+@RequiredArgsConstructor
 public class Nurse {
 
-    @Getter
-    @Setter
-    private Map<String, String> treatment;
 
+    private final Map<String, String> treatment;
 
-    public Patient provideTreatment(Patient patient) {
-        String diagnosis = patient.getDiagnosis();
-        patient.setTreatment(diagnosis);
+    private final PatientRepository patientRepository;
+    private final AccountancyClient accountancyClient;
+
+    public Patient register(Patient patient) {
+        provideTreatment(patient);
+        accountancyClient.forward(patient);
+        patientRepository.save(patient);
         return patient;
+
+    }
+
+
+    public void provideTreatment(Patient patient) {
+        String diagnosis = treatment.get(patient.getDiagnosis());
+        patient.setTreatment(diagnosis);
 
     }
 }

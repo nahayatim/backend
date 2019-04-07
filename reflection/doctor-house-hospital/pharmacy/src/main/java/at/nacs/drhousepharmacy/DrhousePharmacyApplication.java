@@ -1,13 +1,13 @@
-package at.nacs.pharmacy;
+package at.nacs.drhousepharmacy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PharmacyApplication {
+public class DrhousePharmacyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PharmacyApplication.class, args);
+        SpringApplication.run(DrhousePharmacyApplication.class, args);
     }
 
 }

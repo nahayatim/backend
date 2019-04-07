@@ -1,1 +1,10 @@
+server:
+  port: 9004
 
+spring:
+  data:
+    mongodb:
+    uri: mongodb://localhost/pharmacy
+
+patient:
+  url:http://localhost:9005/patients

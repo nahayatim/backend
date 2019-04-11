@@ -7,8 +7,9 @@ import java.util.List;
 
 public interface PersonRepository extends JpaRepository<Person, Long> {
 
-    List<Person> findAllByFriendsIsNotNull();
-    List<Person> findAllByFriendsIsNull();
+    List<Person> findByFriendsNotEmpty();
+
+    List<Person> findByFriendsEmpty();
 
 
 }

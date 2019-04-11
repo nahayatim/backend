@@ -15,8 +15,10 @@ public class Patient {
   @GeneratedValue
   private Long id;
 
+  private String uuid;
+
   @Column(unique = true)
   private String name;
-  
+
 
 }

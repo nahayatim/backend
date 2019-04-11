@@ -1,4 +1,7 @@
 package at.nacs.drhouseaccountancy.persistence.repository;
 
-public class InvoiceRepository {
+import at.nacs.drhouseaccountancy.persistence.domain.Invoice;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface InvoiceRepository extends JpaRepository<Invoice, Long> {
 }

@@ -1,4 +1,7 @@
 package at.nacs.drhouseaccountancy.persistence.repository;
 
-public class PatientRepository {
+import at.nacs.drhouseaccountancy.persistence.domain.Patient;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PatientRepository extends JpaRepository<Patient, Long> {
 }

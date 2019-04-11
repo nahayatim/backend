@@ -1,7 +1,6 @@
 package at.nacs.phonebook.communication;
 
 import at.nacs.phonebook.logic.ContactManager;
-import at.nacs.phonebook.persistence.domain.Address;
 import at.nacs.phonebook.persistence.domain.Contact;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -27,7 +26,7 @@ public class ContactsEndpoint {
 
     @GetMapping("/address/{address}")
     List<Contact> getByAddress(@PathVariable String address) {
-        return contactManager.findLike(address);
+        return contactManager.findBy(address);
     }
 
 

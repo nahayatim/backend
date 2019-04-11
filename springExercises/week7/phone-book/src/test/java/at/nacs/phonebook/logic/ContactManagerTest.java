@@ -7,11 +7,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.springframework.boot.test.context.SpringBootTest.*;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.*;
 
 @SpringBootTest(webEnvironment = NONE)
@@ -40,7 +40,7 @@ class ContactManagerTest {
     void findAll() {
 
         List<Contact> actual = contactManager.findAll();
-        assertThat(actual.size()).isEqualTo(1);
+        assertThat(actual.size()).isEqualTo(2);
 
     }
 
@@ -61,8 +61,8 @@ class ContactManagerTest {
 
     @Test
     void findLike() {
-        List<Contact> test = contactManager.findLike("test");
+        List<Contact> test = contactManager.findBy("test");
 
-        assertThat(test.size()).isEqualTo(1);
+        assertThat(test.size()).isEqualTo(0);
     }
 }

@@ -3,7 +3,6 @@ package at.nacs.phonebook.communication;
 import at.nacs.phonebook.logic.ContactManager;
 import at.nacs.phonebook.persistence.domain.Contact;
 import at.nacs.phonebook.persistence.repository.ContactRepository;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,7 +14,6 @@ import java.util.List;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
-import static org.springframework.boot.test.context.SpringBootTest.*;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.*;
 
 
@@ -55,11 +53,11 @@ class ContactsEndpointTest {
 
     @Test
     void getByAddress() {
-        String address="fake address";
+        String address="fake-address";
         String getByAddressURL= url+"/address"+address;
 
         testRestTemplate.getForObject(getByAddressURL,Contact[].class);
 
-        verify(contactManager).findLike(address);
+        verify(contactManager).findBy(address);
     }
 }

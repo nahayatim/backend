@@ -22,10 +22,8 @@ public class ContactManager {
         return contactRepository.save(contact);
     }
 
-    public List<Contact> findLike(String address) {
+    public List<Contact> findBy(String address) {
         String addressName="%"+address+"%";
         return contactRepository.findContactsByAddressIsLike(addressName);
-
-
     }
 }

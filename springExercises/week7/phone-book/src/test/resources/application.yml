@@ -1,6 +1,8 @@
 dataset:
-  contacts:
-    name: conny
-    address:
-      name: mai street
-
+ contacts:
+  - name: conny
+     address:
+       name: mai street
+  - name: mahtab
+     address:
+       name: test address

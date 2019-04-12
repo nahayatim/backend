@@ -19,13 +19,13 @@ class PatientsEndpointTest {
     @Autowired
     TestRestTemplate restTemplate;
 
-    @MockBean
-    AccountancyClient accountancyClient;
+//    @MockBean
+//    AccountancyClient accountancyClient;
+//
+//    @MockBean
+//    PatientRepository patientRepository;
 
     @MockBean
-    PatientRepository patientRepository;
-
-    @SpyBean
     Nurse nurse;
 
     String url= "/patients";
@@ -35,7 +35,7 @@ class PatientsEndpointTest {
     void post() {
         Patient patient = Patient.builder().name("ani").symptoms("cough").diagnosis("cold").build();
         restTemplate.postForObject(url,patient,Patient.class);
-        Mockito.verify(nurse).provideTreatment(patient);
+        Mockito.verify(nurse).register(patient);
 
     }
 }

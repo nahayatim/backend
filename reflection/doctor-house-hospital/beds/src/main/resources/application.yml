@@ -6,10 +6,10 @@ spring:
     mongodb:
       uri: mongodb://localhost/beds
 
-infobank:
-  treatment:
+patient:
+  url: http://localhost:9005/patients
+
+  treatments:
     cold: mexalen
     diabet: metformin
 
-patient:
-  url: http://localhost:9005/patients

@@ -1,4 +1,6 @@
-infobank:
-  treatment:
+patient:
+  url: no url provided
+
+  treatments:
     cold: mexalen
     diabet: metformin

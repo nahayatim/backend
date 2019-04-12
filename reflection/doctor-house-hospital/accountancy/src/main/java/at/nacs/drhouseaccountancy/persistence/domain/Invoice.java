@@ -27,7 +27,7 @@ public class Invoice {
 
   private String symptoms;
   private String diagnosis;
-  private String provided;
+  private String provided; //treatment or medicine
   private double cost;
   private boolean paid;
   private LocalDateTime timestamp;

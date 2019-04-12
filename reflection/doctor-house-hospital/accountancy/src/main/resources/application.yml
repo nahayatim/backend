@@ -3,9 +3,16 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost/patients?useSSL=false
+    url: jdbc:mysql://localhost/accountancy?useSSL=false
       username: nacsuser1
       password: nacs
       jpa:
         hibernate:
           ddl-auto: update
+
+dataset:
+  costs:
+    mexalen: 5.0
+    go for a walk: 100.0
+    stay in bed: 20.30
+    antibiotik: 12.5

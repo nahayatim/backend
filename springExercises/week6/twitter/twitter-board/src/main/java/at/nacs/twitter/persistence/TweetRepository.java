@@ -1,6 +1,5 @@
 package at.nacs.twitter.persistence;
 
-import at.nacs.twitter.persistence.Tweet;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

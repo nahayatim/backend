@@ -1,7 +1,7 @@
-server:
-  port: 9000
-
-spring:
-  data:
-    mongodb:
-    uri: mongodb://localhost/twitter
+dataset:
+  tweets:
+    -user: mah
+    message: aaaa
+    likes: 12
+    comments: asd
+    timestamp: 2018-

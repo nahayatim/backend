@@ -1,4 +1,4 @@
-package at.nacs.drhouseaccountancy.dto;
+package at.nacs.drhouseaccountancy.communication.dto;
 
 import lombok.Data;
 

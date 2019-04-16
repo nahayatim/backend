@@ -1,4 +1,4 @@
-package at.nacs.drhouseaccountancy.communication;
+package at.nacs.drhouseaccountancy.communication.endpoint;
 
 import at.nacs.drhouseaccountancy.logic.InvoiceManager;
 import at.nacs.drhouseaccountancy.persistence.domain.Invoice;

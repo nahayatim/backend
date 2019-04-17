@@ -1,0 +1,3 @@
+client:
+  server:
+    url: http://loccalhost:9000/encode

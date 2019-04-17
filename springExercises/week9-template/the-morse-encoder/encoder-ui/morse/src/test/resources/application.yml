@@ -1,0 +1,8 @@
+server:
+  port: 9000
+  
+translation:
+  morse:
+    A: 1
+    B: 2
+  not-supported: NOT SUPPORTED

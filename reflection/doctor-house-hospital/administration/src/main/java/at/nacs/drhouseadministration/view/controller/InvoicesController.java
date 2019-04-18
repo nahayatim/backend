@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequiredArgsConstructor
 @RequestMapping("/invoices")
-public class InvoiceController {
+public class InvoicesController {
 
 
   private final AccountancyClient accountancyClient;

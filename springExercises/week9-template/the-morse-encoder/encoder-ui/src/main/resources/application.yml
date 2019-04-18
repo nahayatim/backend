@@ -1,3 +1,2 @@
 client:
-  server:
-    url: http://loccalhost:9000/encode
+    url: http://localhost:9000/encode

@@ -1,5 +1,6 @@
 package at.nacs.encoderui.communication;
 
+import at.nacs.encoderui.view.model.ValidatedMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,11 +13,11 @@ public class EncoderClient {
 
   private final RestTemplate restTemplate;
 
-  @Value("${client.server.url}")
-  String url;
+  @Value("${client.url}")
+  private String url;
 
-  public String send(String plainText) {
-    return restTemplate.postForObject(url, plainText, String.class);
+  public String send(String validatedMessage) {
+    return restTemplate.postForObject(url, validatedMessage, String.class);
   }
 }
 

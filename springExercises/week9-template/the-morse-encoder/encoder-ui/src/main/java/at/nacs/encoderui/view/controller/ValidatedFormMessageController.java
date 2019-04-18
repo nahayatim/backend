@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributesModelMap;
 
 import javax.validation.Valid;
 
@@ -17,13 +18,11 @@ import javax.validation.Valid;
 @RequiredArgsConstructor
 public class ValidatedFormMessageController {
 
-  private ValidatedMessage validatedMessage=new ValidatedMessage();
-
   private final EncoderClient client;
 
   @ModelAttribute("validatedMessage")
   ValidatedMessage validatedMessage(){
-    return validatedMessage;
+    return new ValidatedMessage();
   }
 
 
@@ -33,11 +32,12 @@ public class ValidatedFormMessageController {
   }
 
   @PostMapping
-  String post(@Valid ValidatedMessage validatedMessage, BindingResult result){
+  String post(@Valid ValidatedMessage validatedMessage, BindingResult result, RedirectAttributesModelMap redirect){
     if (result.hasErrors()){
       return page();
     }
-    this.validatedMessage=validatedMessage;
-    return "redirect:/message/form/validated";
+
+    redirect.addFlashAttribute("encoded",client.send(validatedMessage.getText()));
+    return "redirect:/";
   }
 }

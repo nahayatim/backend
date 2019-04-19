@@ -16,7 +16,7 @@ public class InvoicesController {
   private final AccountancyClient accountancyClient;
 
   @GetMapping
-  String pageInvoices() {
+  String Ivoices() {
     return "invoices";
   }
 
@@ -26,7 +26,7 @@ public class InvoicesController {
   }
 
   @PostMapping("/paid")
-  String showInvoicesNeedBetterName(@RequestParam String id) {
+  String invoicesThatPaid(@RequestParam String id) {
     accountancyClient.PaidBy(id);
     return "redirect:/invoices";
 

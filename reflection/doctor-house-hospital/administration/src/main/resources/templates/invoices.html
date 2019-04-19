@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Invoices</title>
+    <link media="all" rel="stylesheet" th:href="@{css/style.css}" type="text/css"/>
 </head>
 <body>
-$END$
+<h2>Invoices</h2>
+<table width="500">
+    <tr th:each="invoice : ${invoices}">
+        <th>Time</th>
+        <th>Name</th>
+        <th>Provided</th>
+        <th>Cost</th>
+        <th>Paid</th>
+    </tr>
+    <tr>
+        <td th:text="${invoice.timestamp}">Time</td>
+        <td th:text="${invoice.patient.name}">Name</td>
+        <td th:text="${invoice.provided}">Provided</td>
+        <td th:text="${invoice.cost}">Cost</td>
+    </tr>
+
+</table>
+<form method="post" th:action="@{/invoices/paid}">
+    <input name="id" th:value="${invoice.id}" type="hidden"/>
+    <button>Mark as done</button>
+</form>
+
 </body>
+
 </html>

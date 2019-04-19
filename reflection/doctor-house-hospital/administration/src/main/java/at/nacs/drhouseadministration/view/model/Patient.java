@@ -11,6 +11,8 @@ import javax.validation.constraints.NotEmpty;
 @AllArgsConstructor
 public class Patient {
 
+  private Long id;
+
   @NotEmpty
   private String name;
 

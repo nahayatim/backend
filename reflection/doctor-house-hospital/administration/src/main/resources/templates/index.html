@@ -2,21 +2,26 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>patient form</title>
+    <title>RegistrationForm</title>
     <link media="all" rel="stylesheet" th:href="@{/css/style.css}" type="text/css"/>
 
 </head>
 <body>
+<h2>Please fill in the form:</h2>
+<form method="post" th:action="@{/}" th:object="${patient}">
+    <label>Enter your full name:</label>
+    FullName: <input th:field="*{name}" type="text">
+    <br>
+    <p th:errors="*{name}" th:if="${#fields.hasErrors('name')}">Name cannot be empty!</p>
+    <br/>
+    <label>Enter your symptoms:</label>
+    Symptoms: <input th:field="*{symptoms}" type="text"/>
+    <p th:errors="*{symptoms}" th:if="${#fields.hasErrors('symptoms')}">Symptoms cannot be empty!</p>
+    <button type="submit">Save the data</button>
 
-<form action="/action_page.php">
-    First name: <input type="text" name="FirstName" value="Mickey"><br>
-    Last name: <input type="text" name="LastName" value="Mouse"><br>
-    Symptoms: <input type="text" name="symptoms" value="Mouse"><br>
-    <input type="submit" value="Submit">
 </form>
 
 <p>Click the "Submit" button and the form-data will be sent to Admission".</p>
-
 
 </body>
 </html>

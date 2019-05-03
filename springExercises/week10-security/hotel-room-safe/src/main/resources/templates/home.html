@@ -3,10 +3,20 @@
 <link media="all" rel="stylesheet" th:href="@{/css/style.css}" type="text/css"/>
 
 <head>
-    <title>Security</title>
+    <title>Hotel Room Safe</title>
 </head>
 <body>
-<h1>Welcome to my Hotel</h1>
-<a th:href="@{/user}">Go to guest page</a>
+<h1>Welcome to Hotel Room Safe</h1>
+<h1>Here are your stuffs: </h1>
+
+<p>stuff 1</p>
+<p>stuff 2</p>
+<p>stuff 3</p>
+<p>stuff 4</p>
+<p>stuff 5</p>
+<p>stuff 6</p>
+<form method="post" th:action="@{/logout}">
+    <button>Sign Out</button>
+</form>
 </body>
 </html>

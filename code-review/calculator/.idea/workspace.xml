@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9e9b1e9-e521-4d10-8543-d2ccc7de3da5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code-review2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/code-review2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../code-review2/code-review2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/ContainLowerCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/ContainLowerCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/ContainNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/ContainNumberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/ContainUpperCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/ContainUpperCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/IsNotNull.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/IsNotNullTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/LongerThanEightCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/LongerThanEightCharacterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/PasswordVerifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/PasswordVerifierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-review2/src/gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/PasswordVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/PasswordVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/PasswordVerifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/PasswordVerifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Verify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/InvoiceCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/InvoiceCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/PatientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/PatientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/accountancy/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/java/at/nacs/drhouseadministration/communication/AdmissionsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/java/at/nacs/drhouseadministration/communication/AdmissionsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/resources/templates/invoices.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/administration/src/main/resources/templates/invoices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/main/java/at/nacs/admission/Admission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/main/java/at/nacs/admission/Admission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/main/java/at/nacs/admission/DiagnosesClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/main/java/at/nacs/admission/DiagnosesClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/main/java/at/nacs/admission/PatientsEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/main/java/at/nacs/admission/PatientsEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/test/java/at/nacs/admission/AdmissionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/test/java/at/nacs/admission/AdmissionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/test/java/at/nacs/admission/PatientsEndpointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/admission/src/test/java/at/nacs/admission/PatientsEndpointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/beds/src/main/java/at/nacs/beds/configuration/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/beds/src/main/java/at/nacs/beds/configuration/CorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DiagnosesConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DiagnosesConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DiagnosesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DiagnosesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DirectionsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DirectionsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DrHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/DrHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/PatientEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/java/at/nacs/diagnoses/PatientEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/diagnoses/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/pharmacy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/doctor-house-hospital/pharmacy/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/morse-encoder2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/morse-encoder2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/morse-encoder2/morse/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/morse-encoder2/morse/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../reflection/week03/src/main/java/de/nacs/handshake/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../reflection/week03/src/main/java/de/nacs/handshake/Transformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week10-security/thieves-den/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week10-security/thieves-den/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week10-security/thieves-den/target/classes/nacs/at/thievesden/configuration/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week10-security/thieves-den/target/classes/nacs/at/thievesden/configuration/WebMvcConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week10-security/thieves-den/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week9-template/magic8ball/src/main/resources/static/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week9-template/magic8ball/src/main/resources/static/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/encoder/src/main/java/at/nacs/encoder/Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/encoder/src/main/java/at/nacs/encoder/Encoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/encoder/src/main/java/at/nacs/encoder/EncoderEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/encoder/src/main/java/at/nacs/encoder/EncoderEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/morse/src/main/java/at/nacs/morse/MorseEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/morse/src/main/java/at/nacs/morse/MorseEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/src/main/java/at/nacs/encoderui/view/controller/ValidatedFormMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/src/main/java/at/nacs/encoderui/view/controller/ValidatedFormMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/src/main/java/at/nacs/encoderui/view/model/ValidatedMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springExercises/week9-template/the-morse-encoder/encoder-ui/src/main/java/at/nacs/encoderui/view/model/ValidatedMessage.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="883786411">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="940" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/Calculator.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1050" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559661536405" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lib/junit-jupiter-params-5.3.2.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.calculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="calculate(double,double,java.lang.String,java.lang.Double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testcalculateForInfinity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testcalculateForInfinity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.testcalculateForInfinity" />
+      <item itemvalue="JUnit.CalculatorTest.calculate" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.calculate" />
+        <item itemvalue="JUnit.CalculatorTest.testcalculateForInfinity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9e9b1e9-e521-4d10-8543-d2ccc7de3da5" name="Default Changelist" comment="" />
+      <created>1559641661030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559641661030</updated>
+      <workItem from="1559641669213" duration="13468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CalculatorTest - 2019.06.04 at 16h 24m 52s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testcalculateForInfinity - 2019.06.04 at 16h 28m 43s.xml">
+      <configuration name="CalculatorTest.testcalculateForInfinity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.04 at 16h 28m 53s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculate - 2019.06.04 at 17h 16m 00s.xml">
+      <configuration name="CalculatorTest.calculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculate - 2019.06.04 at 17h 16m 11s.xml">
+      <configuration name="CalculatorTest.calculate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.04 at 17h 16m 20s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.04 at 17h 16m 25s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.04 at 17h 17m 00s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.04 at 17h 18m 21s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.06.04 at 17h 18m 58s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13468000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="27" width="1050" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21015936" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33260632" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>calculator</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-jupiter-params-5.3.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

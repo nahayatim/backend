@@ -9,12 +9,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 class JackSparrowTest {
 
-    @Autowired
-    JackSparrow jackSparrow;
+  @Autowired
+  JackSparrow jackSparrow;
 
-    @Test
-    void findCursedCoin() {
-        String message = jackSparrow.findCursedCoin();
-        assertEquals("I found the CursedCoin!", message);
-    }
+  @Test
+  void findCursedCoin() {
+    String message = jackSparrow.findCursedCoin();
+    assertEquals("I found the CursedCoin!", message);
+  }
 }

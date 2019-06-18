@@ -7,11 +7,12 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class JackSparrow {
 
-    private final LegendaryCompass legendaryCompass;
+  private final LegendaryCompass legendaryCompass;
 
-    public String findCursedCoin() {
+  public String findCursedCoin() {
 
-        return legendaryCompass.toFind();
+    CursedCoin cursedCoin = legendaryCompass.findCursedCoin();
+    return "I found the " + cursedCoin.getClass().getSimpleName() + "!";
 
-    }
+  }
 }

@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 @Component
 public class LegendaryCompass {
-    private final CursedCoin cursedCoin;
+  private final CursedCoin cursedCoin;
 
-    public String toFind(){
+  public CursedCoin findCursedCoin() {
 
-        return cursedCoin.findCursedCoin();
-    }
+    return cursedCoin;
+  }
 }

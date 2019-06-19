@@ -1,6 +1,6 @@
 package at.nacs.ex4theenglishgentleman;
 
-import lombok.Data;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -9,28 +9,32 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 @Scope("prototype")
 @Component
-@Data
 public class EnglishGentleman {
-    private  final Monocle monocle;
-    private final Lighter lighter;
-    private boolean read;
-    private boolean smoke;
+
+  private final Monocle monocle;
+  private final Lighter lighter;
+
+  @Getter
+  private boolean hasRead;
+
+  @Getter
+  private boolean hasSmoked;
 
 
-    public boolean hadAGoodDay() {
-        return read&& smoke;
-    }
+  public void smoke(Cigar cigar) throws CigarWasNotLitException {
+    lighter.light(cigar);
+    cigar.smoke();
+    hasSmoked = true;
 
-    public void smoke(Cigar cigar) throws CigarWasNotLitException {
-        lighter.light(cigar);
-        cigar.smoke();
-        smoke =true;
+  }
 
-    }
+  public void read(Newspaper newspaper) {
+    monocle.read(newspaper);
+    hasRead = true;
 
-    public void read(Newspaper newspaper) {
-        monocle.read(newspaper);
-        read=true;
+  }
 
-    }
+  public boolean hadAGoodDay() {
+    return hasRead && hasSmoked;
+  }
 }

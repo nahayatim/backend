@@ -9,15 +9,13 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 @Data
 public class Cigar {
-    private boolean lit;
+
+  private boolean lit;
 
 
-    public void smoke() throws CigarWasNotLitException {
-        if (!lit){
-            throw new CigarWasNotLitException();
-        }
-
+  public void smoke() throws CigarWasNotLitException {
+    if (!lit) {
+      throw new CigarWasNotLitException("Cigar was not lit");
     }
-
-
+  }
 }

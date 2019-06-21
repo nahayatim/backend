@@ -1,12 +1,8 @@
-package at.nacs.ex5thecalculator;
+package at.nacs.ex5thecalculator.model;
 
 import lombok.Builder;
-import lombok.Data;
 import lombok.Value;
-import org.springframework.stereotype.Component;
 
-//@Component
-//@Data
 @Value
 @Builder
 public class Expression {
